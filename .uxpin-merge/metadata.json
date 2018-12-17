@@ -1,0 +1,304 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Buttons/Button",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Buttons/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/Buttons/Button/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "button4038267449": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Test"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "button4038267449"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": "standard"
+              },
+              "description": "Size of the button.",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tiny"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "standard"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "primary"
+              },
+              "description": "Snacks button variants.",
+              "isRequired": false,
+              "name": "snacksStyle",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flat"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "coupon"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Optional style overrides.",
+              "isRequired": false,
+              "name": "style",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Whether or not the button is disabled.",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "button"
+              },
+              "description": "Sets the HTML type attribute on the element.",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "button"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "reset"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "submit"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "An optional icon. Can be a an icon name\n    or a Snacks `Icon` component.",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "string",
+                      "structure": {}
+                    },
+                    {
+                      "name": "element",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "left"
+              },
+              "description": "Where the icon is positioned relative to primary text content.",
+              "isRequired": false,
+              "name": "iconPosition",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "left"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "right"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "Callback that fires when the button is clicked.",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "Callback that fires on mouse down.",
+              "isRequired": false,
+              "name": "onMouseDown",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Reverses colors. Use for rendering buttons on dark backgrounds.",
+              "isRequired": false,
+              "name": "inverted",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Sets the HTML `tabindex` attribute.",
+              "isRequired": false,
+              "name": "tabIndex",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "If href is provided, `Button` will render as an anchor\n    tag with the supplied href value.",
+              "isRequired": false,
+              "name": "href",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Text content for the button.",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": {}
+              },
+              "description": "Any additonal props to add to the element (e.g. data attributes).",
+              "isRequired": false,
+              "name": "elementAttributes",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Snacks theme attributes provided by `Themer`",
+              "isRequired": false,
+              "name": "snacksTheme",
+              "type": {
+                "name": "custom",
+                "structure": {}
+              }
+            }
+          ]
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": ""
+}

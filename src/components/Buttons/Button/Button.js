@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Radium from 'radium'
-import Icon from '../Icon/Icon'
-import withTheme from '../../styles/themer/withTheme'
-import { themePropTypes } from '../../styles/themer/utils'
-import { spacing, colors } from '../../styles'
-import { darken } from '../../utils'
+import Icon from '../../Icon/Icon'
+import withTheme from '../../../styles/themer/withTheme'
+import { themePropTypes } from '../../../styles/themer/utils'
+import { spacing, colors } from '../../../styles'
+import { darken } from '../../../utils'
 
 const noop = () => {} // eslint-disable-line no-empty-function
 

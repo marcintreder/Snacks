@@ -16,7 +16,9 @@
     "styleguide:build": "styleguidist build && node scripts/moveBuildAssets.js",
     "test:watch": "npm test -- --watch --bail",
     "test": "jest --silent && npm run test:lint",
-    "test:generate-coverage-report": "codecov"
+    "test:generate-coverage-report": "codecov",
+    "merge": "uxpin-merge --webpack-config ./webpack.uxpin.config.js --uxpin-domain merge.uxpin.cloud"
+
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
   },
   "homepage": "https://github.com/instacart/Snacks#readme",
   "devDependencies": {
+    "@uxpin/merge-cli": "0.1.0-dev.2",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
     "babel-jest": "^22.4.1",
